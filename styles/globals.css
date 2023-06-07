@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .icons {
+      @apply hidden md:inline-flex items-center text-gray-500 cursor-pointer p-2 h-10 w-10 bg-gray-50 rounded-md;
+  }
+  .billsbutton{
+    @apply w-[188px] h-[41px] bg-[#E7AA07] text-white rounded-md;
+  }
+  .billscard{
+    @apply w-[222px] h-[215px] p-2 flex flex-col items-center border-[0.8px] cursor-pointer rounded-md shadow-sm;
+  }
+  .flex-container{
+    @apply flex items-center justify-between;
+  }
+  .paragraph{
+    @apply text-[14px] text-gray-400;
+  }
+  .span{
+    @apply text-[10px] text-gray-400;
+  }
+}
+
