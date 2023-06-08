@@ -3,7 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig;
-
-export default {};
+module.exports = {
+  future: {
+    webpack5: true,
+  },
+  nextConfig
+};
 
