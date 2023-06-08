@@ -1,8 +1,6 @@
-import React from 'react'
 import { ArrowRightIcon, } from "@heroicons/react/solid";
 import IntlModal from '../Modal/IntlModal';
 import { TiTick } from "react-icons/ti";
-
 import { Fragment, useState } from "react";
 
 
