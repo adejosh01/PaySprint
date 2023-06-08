@@ -1,4 +1,3 @@
-import React from 'react'
 import { SearchIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import PaySprintUserIntl from './PaySprintUserIntl';
