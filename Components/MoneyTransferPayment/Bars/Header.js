@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import logo from "../../../public/image/logo.jpg";
 import niffy from "../../../public/image/niffy.jpeg"
