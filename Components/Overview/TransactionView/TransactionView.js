@@ -49,7 +49,7 @@ function TransactionView() {
       {/*Right */}
 
       <div className="mt-4">
-        <div className="flex justify-between p-2 h-[45px] w-[328px] bg-[#272343] text-white rounded-md">
+        <div className="flex justify-center p-2 h-[45px] w-[328px] bg-[#272343] text-white rounded-md">
           <h1>Redeem Points</h1>
           <ArrowRightIcon className="ml-4 h-6 w-6" />
         </div>
