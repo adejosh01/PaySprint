@@ -36,7 +36,7 @@ function PayInvoiceContent() {
                 <div className='flex space-x-4 mt-4'>
                     <div className="flex items-center">
                         <div className="md:inline-flex items-center">
-                            <button className="flex justify-between text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#E7AA07] text-white rounded-md">
+                            <button className="flex justify-center text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#E7AA07] text-white rounded-md">
                             View Invoice
                             <PlusIcon className="h-6 w-6 ml-3" />
                             </button>
@@ -45,7 +45,7 @@ function PayInvoiceContent() {
 
                     <div className="flex items-center">
                         <div className="md:inline-flex items-center">
-                            <button className="flex justify-between text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#00751F] text-white rounded-md">
+                            <button className="flex justify-center text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#00751F] text-white rounded-md">
                             Pay Invoice
                             <PlusIcon className="h-6 w-6 ml-3" />
                             </button>
