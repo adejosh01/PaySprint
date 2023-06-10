@@ -38,7 +38,7 @@ function Sidebar() {
             </button>
           </div>  
           <div>
-              {!isOpen &&
+              {isOpen &&
               <div className="bg-transparent mt-3 ml-12 border-l-2">
                  <div className="hidden md:block text-gray-400"> 
                     <Link href="/money_transfer"> <SubSidebarRow active title="Money transfer" /></Link>
