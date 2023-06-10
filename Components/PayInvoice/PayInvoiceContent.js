@@ -8,7 +8,7 @@ import payinvoice2 from "../../public/image/payinvoice2.png"
 
 function PayInvoiceContent() {
   return (
-    <div className='flex flex-col fixed md:flex-row justify-between'>
+    <div className='flex flex-col md:flex-row justify-between'>
         <div>
             <div className='mt-2 w-[502px]'>
                 <div>
@@ -153,7 +153,7 @@ function PayInvoiceContent() {
                     <div className='flex flex-col items-center'>
                         <h2 className='text-[20px] text-[#272343] font-medium '>Invoice Summary</h2>
                         <div className="md:inline-flex items-center mt-4">
-                            <button className="flex items-center justify-between text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#7165E3] text-white rounded-md">
+                            <button className="flex items-center justify-center text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#7165E3] text-white rounded-md">
                             <span>Export report</span>
                             <HiArrowDownTray className='w-5 h-5 ml-3' />
                             </button>
