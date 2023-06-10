@@ -14,7 +14,7 @@ function NonPaySprintUser(){
             <div>
                 <h2 className="text-[14px] text-[#272343] font-medium">Payment Channels</h2>
                 <div className="mt-2">
-                    <button className="flex-container border-[0.7px] p-2 w-full h-[40px] rounded-md outline-none">
+                    <button className="flex items-center justify-between border-[0.7px] p-2 w-full h-[40px] rounded-md outline-none">
                         <p className="text-[#272343] text-[12px]">Beneficiary to accept payment on PaySprint mobile app (No transfer Fee)</p> 
                         <ChevronDownIcon className="h-6 w-6"/>
                     </button>
@@ -35,7 +35,7 @@ function NonPaySprintUser(){
                     <div className="flex justify-between mt-2">
                         <div>
                             <label className="text-[12px] text-[#2D334A]">Country</label>
-                            <div className="flex-container p-2 pl-4 pr-12 w-[251px]  mt-2 border-[1px] outline-none rounded-lg">
+                            <div className="flex items-center justify-between p-2 pl-4 pr-12 w-[251px]  mt-2 border-[1px] outline-none rounded-lg">
                                 <input type="text" placeholder="Country" />
                                 <span><ChevronDownIcon className="h-6 w-6 text-gray-400" /></span>
                                  
@@ -75,7 +75,7 @@ function NonPaySprintUser(){
                         </div>
 
                         <button  className="p-2 mt-8 bg-[#E7AA07] w-[251px] h-[45px] text-white rounded-md" onClick={() => setShowUserModal(true) }>                         
-                                <div className="flex-container">
+                                <div className="flex items-center justify-center">
                                     <span>Proceed</span>
                                 </div>                                                                          
                         </button>

@@ -8,10 +8,10 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 function NonPaySprintUserModal({ isVisible , onClose}) {
     if ( !isVisible ) return null;
   return (
-    <div className='fixed inset-0 bg-white bg-opacity-0 flex-container'> 
+    <div className='fixed inset-0 bg-white bg-opacity-0 flex items-center justify-between'> 
         <div className=' w-[350px] h-[643px] bg-white rounded-lg mt-24 shadow-lg'>
             <div className='m-4 ml-6'>
-                <div className='flex-container'>
+                <div className='flex items-center justify-between'>
                     <div className='space-y-2'>
                         <h3 className='text-[#E7AA07] text-[10px] font-medium'>SEND TO</h3>
                         <h2 className='text-[#2D334A] font-medium text-[16px]'>Adeloba Joshua</h2>
@@ -38,7 +38,7 @@ function NonPaySprintUserModal({ isVisible , onClose}) {
                                 <div>
                                     <label className='span'>Wallet type<span className='text-[red]'>*</span></label>
                                     <div>
-                                        <button className="flex-container bg-white border-[0.7px] p-2 w-[250px] h-[35px] rounded-md outline-none">
+                                        <button className="flex items-center justify-between bg-white border-[0.7px] p-2 w-[250px] h-[35px] rounded-md outline-none">
                                             <p className="text-[#272343] text-[12px] font-medium">PaySprint  FX Wallet</p> 
                                             <ChevronDownIcon className="h-5 w-5 text-gray-400"/>
                                         </button>
@@ -48,7 +48,7 @@ function NonPaySprintUserModal({ isVisible , onClose}) {
                                 <div>
                                     <label className='span'>Payment Wallet<span className='text-[red]'>*</span></label>
                                     <div>
-                                        <button className="flex-container bg-white border-[0.7px] p-2 w-[250px] h-[35px] rounded-md outline-none">
+                                        <button className="flex items-center justify-between bg-white border-[0.7px] p-2 w-[250px] h-[35px] rounded-md outline-none">
                                             <p className="text-[#272343] text-[10px] font-medium">ES_618157eca3662_TUE - GHS100.00</p> 
                                             <ChevronDownIcon className="h-5 w-5 text-gray-400"/>
                                         </button>
@@ -85,7 +85,7 @@ function NonPaySprintUserModal({ isVisible , onClose}) {
                         </div>
                     </div>
                 </div>
-                <div className='flex-container mt-2 mb-3'>
+                <div className='flex items-center justify-between mt-2 mb-3'>
                     <span className='text-[12px] text-gray-400'>Total Amount</span>
                     <h3 className='text-[20px] text-[#2D334A]'>#0.00</h3>
                 </div>

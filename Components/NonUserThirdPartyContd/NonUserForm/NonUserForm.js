@@ -16,7 +16,7 @@ function NonUserForm() {
               <div className="space-y-2">
                 <label htmlFor="Receiver" className="text-[12px] font-medium">Receiver option<span className="text-[red]">*</span></label>
                 <div>
-                <button className="flex-container border-[0.7px] p-2 w-[350px] h-[35px] rounded-md outline-none">
+                <button className="flex items-center justify-between border-[0.7px] p-2 w-[350px] h-[35px] rounded-md outline-none">
                         <p className="text-[#272343] text-[12px] font-medium">Create new beneficiary</p> 
                         <ChevronDownIcon className="h-6 w-6 text-gray-400"/>
                  </button>
@@ -49,7 +49,7 @@ function NonUserForm() {
                     <div className="flex space-x-14 mt-2">
                         <div>
                             <label className="text-[12px] text-[#2D334A] font-medium">Country<span className="text-[red]">*</span></label>
-                            <button className="flex-container p-2 pl-4 pr-12 w-[251px] h-[35px] mt-2 border-[1px] outline-none rounded-lg">
+                            <button className="flex items-center justify-between p-2 pl-4 pr-12 w-[251px] h-[35px] mt-2 border-[1px] outline-none rounded-lg">
                                 <p className="text-[14px]">Ghana</p>
                                 <span><ChevronDownIcon className="h-6 w-6 text-gray-400 ml-10" /></span>    
                             </button>
@@ -80,7 +80,7 @@ function NonUserForm() {
                 <div className="flex space-x-4 mt-2">
                   <div>
                       <label className="text-[12px] text-[#2D334A] font-medium">Payment Type<span className="text-[red]">*</span></label>
-                      <button className="flex-container p-2 pl-4 pr-12 w-[330px] h-[35px]  mt-2 border-[1px] outline-none rounded-lg">
+                      <button className="flex items-center justify-between p-2 pl-4 pr-12 w-[330px] h-[35px]  mt-2 border-[1px] outline-none rounded-lg">
                           <p className="text-[14px]">Cash payments</p>
                           <span><ChevronDownIcon className="h-6 w-6 text-gray-400" /></span>    
                       </button>
@@ -129,7 +129,7 @@ function NonUserForm() {
                 </div>
                 <div className="mt-2">
                     <button className="p-2 bg-[#E7AA07] w-[240px] h-[40px] text-white rounded-md">
-                        <div className="flex items-center justify-center">
+                        <div className="flex items-center justify-between">
                             <span>Proceed</span>
                             <div className="ml-2"><ArrowRightIcon className="h-6 w-6" /></div>
                         </div>

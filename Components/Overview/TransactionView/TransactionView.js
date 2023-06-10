@@ -49,7 +49,7 @@ function TransactionView() {
       {/*Right */}
 
       <div className="mt-4">
-        <div className="flex justify-center p-2 h-[45px] w-[328px] bg-[#272343] text-white rounded-md">
+        <div className="flex justify-between p-2 h-[45px] w-[328px] bg-[#272343] text-white rounded-md">
           <h1>Redeem Points</h1>
           <ArrowRightIcon className="ml-4 h-6 w-6" />
         </div>
@@ -82,7 +82,7 @@ function TransactionView() {
               </h1>
 
               <div className="mt-4 space-y-3">
-                <div className="flex-container">
+                <div className="flex items-center justify-between">
                   <p className="paragraph"> 
                     Identity Verification
                   </p>
@@ -90,7 +90,7 @@ function TransactionView() {
                     Pending
                   </span>
                 </div>
-                <div className="flex-container">
+                <div className="flex items-center justify-between">
                   <p className="paragraph">
                     Add card/ Bank account
                   </p>
@@ -98,7 +98,7 @@ function TransactionView() {
                     Completed
                   </span>
                 </div>
-                <div className="flex-container">
+                <div className="flex items-center justify-between">
                   <p className="paragraph">
                     Set transaction pin
                   </p>
@@ -106,7 +106,7 @@ function TransactionView() {
                     Completed
                   </span>
                 </div>
-                <div className="flex-container">
+                <div className="flex items-center justify-between">
                   <p className="paragraph">
                     Set transaction pin
                   </p>
@@ -114,7 +114,7 @@ function TransactionView() {
                     Completed
                   </span>
                 </div>
-                <div className="flex-container">
+                <div className="flex items-center justify-between">
                   <p className="paragraph">
                     Bank verification (BVN)
                   </p>

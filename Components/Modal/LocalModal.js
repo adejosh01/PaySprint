@@ -6,10 +6,10 @@ import {AiOutlineClose} from 'react-icons/ai'
 function LocalModal({ isVisible , onClose}) {
     if ( !isVisible ) return null;
   return (
-    <div className='fixed inset-0 bg-white bg-opacity-0 flex-container'> 
+    <div className='fixed inset-0 bg-white bg-opacity-0 flex items-center justify-between'> 
         <div className=' w-[350px] h-[643px] bg-white rounded-lg mt-24 shadow-lg'>
             <div className='m-4 ml-5'>
-                <div className='flex-container'>
+                <div className='flex items-center justify-between'>
                     <div className='space-y-2'>
                         <h3 className='text-[#E7AA07] text-[10px] font-medium'>SEND TO</h3>
                         <h2 className='text-[#2D334A] font-medium text-[16px]'>Adeloba Joshua</h2>
@@ -60,7 +60,7 @@ function LocalModal({ isVisible , onClose}) {
                         </div>
                     </div>
                 </div>
-                <div className='flex-container mt-2 mb-3'>
+                <div className='flex items-center justify-between mt-2 mb-3'>
                     <span className='span'>Total Amount</span>
                     <h3 className='text-[20px] text-[#2D334A]'>#0.00</h3>
                 </div>

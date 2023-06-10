@@ -17,7 +17,7 @@ function PayInvoiceContent() {
                 <div className='mt-2 space-y-4'>
                     <div>
                       <label className="text-[12px] text-[#2D334A] font-medium">Service Type</label>
-                      <button className="flex-container p-2  w-[495px] h-[35px]  mt-2 border-[1px] outline-none rounded-lg">
+                      <button className="flex items-center justify-between  p-2  w-[495px] h-[35px]  mt-2 border-[1px] outline-none rounded-lg">
                           <p className="text-[12px] text-gray-400">Select service type</p>
                           <span><ChevronDownIcon className="h-6 w-6 text-gray-400" /></span>    
                       </button>
@@ -25,7 +25,7 @@ function PayInvoiceContent() {
 
                     <div>
                       <label className="text-[12px] text-[#2D334A] font-medium">Invoice Number</label>
-                      <button className="flex-container p-2  w-[495px] h-[35px]  mt-2 border-[1px] outline-none rounded-lg">
+                      <button className="flex items-center justify-between p-2  w-[495px] h-[35px]  mt-2 border-[1px] outline-none rounded-lg">
                           <p className="paragraph">Payca_xxxxxxxxxxx</p>
                           <span><ChevronDownIcon className="h-6 w-6 text-gray-400" /></span>    
                       </button>
@@ -36,7 +36,7 @@ function PayInvoiceContent() {
                 <div className='flex space-x-4 mt-4'>
                     <div className="flex items-center">
                         <div className="md:inline-flex items-center">
-                            <button className="flex justify-center text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#E7AA07] text-white rounded-md">
+                            <button className="flex justify-between text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#E7AA07] text-white rounded-md">
                             View Invoice
                             <PlusIcon className="h-6 w-6 ml-3" />
                             </button>
@@ -45,7 +45,7 @@ function PayInvoiceContent() {
 
                     <div className="flex items-center">
                         <div className="md:inline-flex items-center">
-                            <button className="flex justify-center text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#00751F] text-white rounded-md">
+                            <button className="flex justify-between text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#00751F] text-white rounded-md">
                             Pay Invoice
                             <PlusIcon className="h-6 w-6 ml-3" />
                             </button>
@@ -73,14 +73,14 @@ function PayInvoiceContent() {
                                 </div>
                                 <div>
                                     <div className='border-b-[1px]'>
-                                            <div className='flex-container mb-2'>
+                                            <div className='flex items-center justify-between mb-2'>
                                                 <h2 className='text-[#272343] text-[16px] font-medium'>Description</h2>
                                                 <h2 className='text-[#272343] text-[16px] font-medium mr-3'>Amount</h2>
                                             </div>
                                     </div>
 
                                     <div className=' border-b-[1px]'>
-                                        <div className='mb-2 flex-container'>
+                                        <div className='mb-2 flex items-center justify-between'>
                                             <div className='mt-2'>
                                                 <p className='w-[349px] h-[48px] text-[14px] text-[#2D334A] '>
                                                 Invoice for Consulting Fee to Profilr Nig. LTD
@@ -100,7 +100,7 @@ function PayInvoiceContent() {
                                     </div>
 
                                     <div className=' border-b-[1px]'>
-                                        <div className='mb-2 flex-container'>
+                                        <div className='mb-2 flex items-center justify-between'>
                                             <div className='mt-2'>
                                                 <p className='w-[349px] h-[48px] text-[14px] text-[#2D334A] '>
                                                 Invoice for Consulting Fee to Profilr Nig. LTD
@@ -120,7 +120,7 @@ function PayInvoiceContent() {
                                     </div>
 
                                     <div className=' border-b-[1px]'>
-                                        <div className='mb-2 flex-container'>
+                                        <div className='mb-2 flex items-center justify-between'>
                                             <div className='mt-2'>
                                                 <p className='w-[349px] h-[48px] text-[14px] text-[#2D334A] '>
                                                 Invoice for Consulting Fee to Profilr Nig. LTD
@@ -153,7 +153,7 @@ function PayInvoiceContent() {
                     <div className='flex flex-col items-center'>
                         <h2 className='text-[20px] text-[#272343] font-medium '>Invoice Summary</h2>
                         <div className="md:inline-flex items-center mt-4">
-                            <button className="flex items-center justify-center text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#7165E3] text-white rounded-md">
+                            <button className="flex items-center justify-between text-[14px] font-bold p-[12px] w-[240px] h-[48px] bg-[#7165E3] text-white rounded-md">
                             <span>Export report</span>
                             <HiArrowDownTray className='w-5 h-5 ml-3' />
                             </button>

@@ -34,22 +34,22 @@ function SwitchTabContent() {
                 <h2 className="text-[18px] text-[#272343]">Send Money to: </h2>
                 <div className="w-[1032px] h-[430px] border-[0.5px] mt-4 rounded-md">
                     <div>
-                        <div className="flex items-center w-[1032px] h-[60px] bg-[#f7f7f7] border-[0.5px] rounded-md">
-                            <button className={`flex-container py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a]
+                        <div className="flex items-center justify-between w-[1032px] h-[60px] bg-[#f7f7f7] border-[0.5px] rounded-md">
+                            <button className={`flex items-center justify-center py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a]
                             ${activeTab === 1 ? 'bg-white text-[#272343]' : 'bg-transparent text-[#AEAEAE] rounded-md'}`}
                             onClick={() => handleTabClick(1)}
                             >
                               PaySprint User
                             </button>
 
-                            <button className={`flex-container py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a] rounded-lg
+                            <button className={`flex items-center justify-center py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a] rounded-lg
                             ${activeTab === 2 ? 'bg-white text-[#272343]' : 'bg-transparent text-[#AEAEAE]'}`}
                             onClick={() => handleTabClick(2)}
                             >
                                 Non-PaySprint User
                             </button> 
 
-                            <button className={`flex-container py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a] rounded-lg
+                            <button className={`flex items-center justify-center py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a] rounded-lg
                             ${activeTab === 3 ? 'bg-white text-[#272343]' : 'bg-transparent text-[#AEAEAE] rounded-md'}`}
                             onClick={() => handleTabClick(3)}
                             >

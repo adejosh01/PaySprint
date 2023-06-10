@@ -34,7 +34,7 @@ function PaySprintUser(){
                 <div className="flex space-x-40">
                     <div>
                         <div className="flex items-center space-x-2">
-                            <div className="bg-[#27B560] w-[20px] h-[20px] justify-center rounded-full"><TiTick className="h-6 w-6 text-white" /></div>
+                            <div className="bg-[#27B560] w-[20px] h-[20px] justify-between rounded-full"><TiTick className="h-6 w-6 text-white" /></div>
                             <h2 className="text-[#2D334A] font-medium text-[20px]">Adeloba Joshua</h2>
                         </div>  
                         <span className="text-gray-300 ml-6">3299265</span>

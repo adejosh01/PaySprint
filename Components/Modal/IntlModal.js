@@ -6,7 +6,7 @@ import { LockClosedIcon } from '@heroicons/react/solid';
 function IntlModal({ isVisible , onClose}) {
     if ( !isVisible ) return null;
   return (
-    <div className='fixed inset-0 bg-white bg-opacity-0 flex-container'> 
+    <div className='fixed inset-0 bg-white bg-opacity-0 flex items-center justify-between'> 
         <div className='w-[344px] h-[748px] bg-white rounded-md mt-24 shadow-lg'>
             <div className='m-6 ml-5'>
                 <div className='flex-container'>

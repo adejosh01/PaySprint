@@ -16,7 +16,7 @@ function ThirdPartyUser(){
             <div className="">
                 <h2 className="text-[14px] text-[#272343] font-medium">Payment Channels</h2>
                 <div className="mt-2">
-                    <button className="flex-container border-[0.7px] p-2 w-full h-[40px] rounded-md outline-none">
+                    <button className="flex items-center justify-between border-[0.7px] p-2 w-full h-[40px] rounded-md outline-none">
                         <p className="text-[#272343] text-[12px]">Beneficiary to accept payment on PaySprint mobile app (No transfer Fee)</p> 
                         <Dropdown className="h-6 w-6"/>
                     </button>
@@ -61,7 +61,7 @@ function ThirdPartyUser(){
 
                         <button  className="p-2 mt-4 bg-[#E7AA07] w-[251px] h-[45px] text-white rounded-md">
                             <Link href="./nonuserthirdparty">
-                                <div className="flex-container">
+                                <div className="flex items-center justify-between">
                                     <span>Proceed</span>
                                 <div className="ml-2"><ArrowRightIcon className="h-6 w-6" /></div>
                                 </div>

@@ -67,7 +67,7 @@ function WalletTrans() {
         </div>
 
         <div className="md:inline-flex items-center mt-80">
-          <button className="flex justify-center text-[14px] font-bold p-[12px] w-[328px] h-[40px] bg-[#7165E3] text-white rounded-md">
+          <button className="flex items-center justify-center text-[14px] font-bold p-[12px] w-[328px] h-[40px] bg-[#7165E3] text-white rounded-md">
             Get Virtual Card
           </button>
         </div>
