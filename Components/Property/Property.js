@@ -8,7 +8,7 @@ function Property() {
     <>
       <Header />
       <Sidebar />
-      <div className=" ml-28 md:ml-80 lg:px-10 mt-2">
+      <div className=" ml-28 md:ml-72 lg:px-10 mt-2">
         <PropertyContent />
       </div>
     </>
