@@ -45,7 +45,7 @@ function Sidebar() {
                     <Link href="/money_transfer"> <SubSidebarRow active title="Money transfer" /></Link>
                     <Link href="/payinvoice"> <SubSidebarRow  title="Pay invoice" /></Link> 
                     <Link href="/utilitybills"> <SubSidebarRow  title="Utility bills" /></Link> 
-                    <Link href="/"> <SubSidebarRow  title="Property management" /></Link>                      
+                    <Link href="/property"> <SubSidebarRow  title="Property management" /></Link>                      
                 </div>            
               </div>
               }              
