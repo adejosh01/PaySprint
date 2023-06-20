@@ -8,7 +8,7 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 function NonPaySprintUserModal({ isVisible , onClose}) {
     if ( !isVisible ) return null;
   return (
-    <div className='fixed inset-0 bg-white bg-opacity-0 flex items-center justify-between'> 
+    <div className='fixed inset-0 bg-white bg-opacity-0 flex items-center justify-center'> 
         <div className=' w-[350px] h-[643px] bg-white rounded-lg mt-24 shadow-lg'>
             <div className='m-4 ml-6'>
                 <div className='flex items-center justify-between'>

@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import SidebarRow from "./SidebarRow";
 import SubSidebarRow from "./SubSidebarRow";
@@ -54,9 +55,11 @@ function Sidebar() {
 
       
 
-      <div>
-        <SidebarRow Icon={AiOutlineTag} title="Promotions" />
-      </div>
+        <Link href="/promotions">
+            <SidebarRow Icon={AiOutlineTag} title="Promotions" />
+        </Link>
+        
+      
 
       <div className="mb-4 md:mt-14">
         <SidebarRow Icon={AiOutlineSetting} title="Settings" />

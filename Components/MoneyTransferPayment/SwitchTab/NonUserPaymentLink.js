@@ -70,7 +70,7 @@ function NonPaySprintUser(){
                             <label className="text-[12px] text-[#2D334A]">Telephone</label>
                             <div className="relative flex items-center pl-4 pr-12 p-2 w-[251px] mt-2 border-[1px] outline-none rounded-lg">
                                 <span className="mr-2 pr-2 text-[12px] text-gray-400 border-r-[2px]">+234</span>
-                                <input type="tel" placeholder="Telephone" />
+                                <input type="tel" placeholder="Telephone" className="outline-none" />
                             </div>
                         </div>
 

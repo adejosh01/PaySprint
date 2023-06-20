@@ -2,7 +2,7 @@
 function CardValue({name, digit, pent, trend}) {
     return (
         <>
-            <div className="bg-white border-[0.5px] w-[328px] h-[120px] rounded-md hover:shadow-md">
+            <div className="bg-white border-[0.5px] w-[328px] h-[120px] rounded-md">
                 <div className="m-4">
                     <h5 className="text-[16px] text-gray-400">{name}</h5>
                     <div className="flex items-center space-x-20">

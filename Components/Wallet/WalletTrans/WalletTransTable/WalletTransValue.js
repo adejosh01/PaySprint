@@ -1,7 +1,7 @@
 function WalletTransValue() {
   return (
     <div>
-      <div className="flex justify-between items-center mt-4 pb-4 border-b-[0.5px]">
+      <div className="flex justify-between items-center mt-2 pb-2 border-b-[0.5px]">
         <div>
           <h1 className="text-[14px] text-[#272343] font-semibold">
             Description
@@ -16,7 +16,7 @@ function WalletTransValue() {
           </h2>
         </div>
       </div>
-      <div className="flex justify-between items-center mt-2 pb-4 border-b-[0.5px]">
+      <div className="flex justify-between items-center mt-2 pb-2 border-b-[0.5px]">
             <div>
                 <p className="w-[193px] text-[12px] font-normal text-[#272343]">
                   Received NGN 30,000 in wallet for 
@@ -35,7 +35,7 @@ function WalletTransValue() {
                   </span>
             </div>
       </div>
-      <div className="flex justify-between items-center mt-2 pb-4">
+      <div className="flex justify-between items-center mt-2 pb-2">
             <div>
                 <p className="w-[193px] text-[12px] font-normal text-[#272343]">
                   Received NGN 30,000 in wallet for 

@@ -5,7 +5,7 @@ import {CiPaperplane} from 'react-icons/ci'
 function WalletCard() {
   return (
     <div className="flex flex-col sm:flex-col md:flex-row ml-4 md:ml-0 md:items-center mt-4 justify-between">
-      <div className="bg-white border-[0.5px] mb-16 md:mb-0  w-[328px] h-[120px] rounded-md hover:shadow-md">
+      <div className="bg-white border-[0.5px] mb-16 md:mb-0  w-[328px] h-[120px] rounded-md">
         <div className="m-4 mb-6 md:mb-10">
           <h5 className="text-[16px] text-gray-400">Overdraft balance</h5>
           <div className="flex items-center space-x-24">
@@ -25,7 +25,7 @@ function WalletCard() {
         </div>
       </div>
 
-      <div className="bg-white border-[0.5px] w-[328px] mb-16 md:mb-0  h-[120px] rounded-md hover:shadow-md">
+      <div className="bg-white border-[0.5px] w-[328px] mb-16 md:mb-0  h-[120px] rounded-md ">
         <div className="m-4 mb-6 md:mb-10">
           <h5 className="text-[16px] text-gray-400 ">Available balance</h5>
           <div className="flex items-center space-x-24">
@@ -43,7 +43,7 @@ function WalletCard() {
         </div>
       </div>
 
-      <div className="bg-white border-[0.5px] mb-16 md:mb-0 w-[328px] h-[120px] rounded-md hover:shadow-md">
+      <div className="bg-white border-[0.5px] mb-16 md:mb-0 w-[328px] h-[120px] rounded-md ">
         <div className="m-4 mb-6 md:mb-10">
           <h5 className="text-[16px] text-gray-400">Linked accounts</h5>
           <div className="flex">

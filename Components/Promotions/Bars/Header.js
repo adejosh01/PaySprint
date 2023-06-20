@@ -1,10 +1,10 @@
 import Image from "next/image";
-import logo from "../../../public/image/logo.jpg"
+import logo from "../../../public/image/logo.jpg";
 import niffy from "../../../public/image/niffy.jpeg"
 import { BellIcon, UserCircleIcon, UserIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import Dropdown2 from "@/Components/Utils/Dropdown2";
 import Dropdown from "@/Components/Utils/Dropdown";
+import Dropdown2 from "@/Components/Utils/Dropdown2";
 
 function Header() {
   return (
@@ -17,8 +17,8 @@ function Header() {
       {/* Center */}
       <div className="flex flex-grow md:ml-6">
         <div className="flex">
-          <h1 className="w-[119px] h-[30px] md:mr-0 font-extrabold text-[24px] text-[#272343]">
-            Transaction
+          <h1 className="w-[200px] h-[30px] md:mr-0 font-extrabold text-[24px] text-[#272343]">
+            Promotions
           </h1>
         </div>
       </div>
@@ -35,16 +35,16 @@ function Header() {
           <div className="hidden md:inline-flex items-center cursor-pointer bg-gray-50 text-gray-500">
             {/*An icon will be here */}
             <UserIcon className="p-2 h-10 w-10" />
-            <Dropdown2 />
+             <Dropdown2 />
           </div>
 
           <div className="flex items-center space-x-2">
-             {/*<UserCircleIcon className="flex w-[40px] h-[40px] text-gray-600 " />*/}
-             <Image src={niffy} width={50} height={50} className="w-[40px] h-[40px] rounded-full" />
+            {/*<UserCircleIcon className="flex w-[40px] h-[40px] text-gray-600 " />*/}
+            <Image src={niffy} width={50} height={50} className="w-[40px] h-[40px] rounded-full" />
             <p className="hidden md:inline-flex whitespace-nowrap font-medium pr-3 text-lg">
               Adeloba Joshua
             </p>
-           <Dropdown />
+            <Dropdown />
           </div>
         </div>
       </div>

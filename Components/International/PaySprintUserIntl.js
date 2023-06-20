@@ -21,7 +21,7 @@ function PaySprintUserIntl() {
                 <div className="mt-2">
                     <input className="border-[1px] p-2 w-[300px] h-[48px] rounded-md outline-none" />
                     <button className="p-2 ml-6 bg-[#E7AA07] w-[240px] h-[48px] text-white rounded-md" onClick={() => setShowModal(true) }>
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center justify-center">
                             <span>Proceed</span>
                             <div className="ml-2"><ArrowRightIcon className="h-6 w-6" /></div>
                         </div>

@@ -25,7 +25,7 @@ function Sidebar() {
         <SidebarRow  Icon={HiOutlineSquares2X2} title="Overview" />
       </Link>
       <Link href="/wallet">
-        <SidebarRow active Icon={BiWallet} title="Wallet" />
+        <SidebarRow Icon={BiWallet} title="Wallet" />
       </Link>
       <Link href="/transaction">
         <SidebarRow Icon={BsArrowLeftRight} title="Transaction" />
@@ -56,7 +56,7 @@ function Sidebar() {
       
 
         <Link href="/promotions">
-            <SidebarRow Icon={AiOutlineTag} title="Promotions" />
+            <SidebarRow active Icon={AiOutlineTag} title="Promotions" />
         </Link>
         
       

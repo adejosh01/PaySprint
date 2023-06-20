@@ -15,7 +15,7 @@ function WalletTrans() {
             Recent transactions
           </h1>
 
-          <div className="w-full  md:w-[680px] md:h-[310px] mb-14 border-[0.5px] mt-4 rounded-md">
+          <div className="w-full  md:w-[680px] md:h-auto mb-14 border-[0.5px] mt-4 rounded-md">
             <div className="m-6">
               <div>
                 <div className="flex justify-between pb-4 border-b-[0.5px]">
@@ -47,9 +47,13 @@ function WalletTrans() {
               {/*TransTable for OverView Page */}
               <WalletTransValue />
 
-              <ScrollButton />
+             
             </div>
           </div>
+            <div className="mt-[-50px]">
+                <ScrollButton />
+            </div>
+            
         </div>
       </div>
 

@@ -14,7 +14,7 @@ function SwitchIntlTabContent() {
   return (
     <div className="space-y-4">
     <div className="flex items-center">
-        <div className="flex items-center justify-between border-[0.5px] rounded-md w-[250px]">
+        <div className="flex items-center justify-center border-[0.5px] rounded-md w-[250px]">
                 <div><SearchIcon className=" h-8 w-6 text-gray-400" /></div>
                 <div>
                 <input
@@ -33,22 +33,22 @@ function SwitchIntlTabContent() {
         <h2 className="text-[18px] text-[#272343]">Send Money to: </h2>
         <div className="w-[1032px] h-[430px] border-[0.5px] mt-4 rounded-md">
             <div>
-                <div className="flex items-center w-[1032px] h-[60px] bg-[#f7f7f7] border-[0.5px] rounded-md">
-                    <button className={`flex items-center justify-between py-7 my-2 px-8 w-[344px] h-[50px] text-[#2d334a]
+                <div className="flex items-center w-[1032px] h-[60px] bg-[#f7f7f7] border-[0.5px] rounded-xl">
+                    <button className={`flex items-center justify-center py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a]
                     ${activeTab === 1 ? 'bg-white text-[#272343]' : 'bg-transparent text-[#AEAEAE] rounded-md'}`}
                     onClick={() => handleTabClick(1)}
                     >
                       PaySprint User
                     </button>
 
-                    <button className={`flex items-center justify-between py-7 my-2 px-8 w-[344px] h-[50px] text-[#2d334a] rounded-lg
+                    <button className={`flex items-center justify-center py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a] rounded-xl
                     ${activeTab === 2 ? 'bg-white text-[#272343]' : 'bg-transparent text-[#AEAEAE]'}`}
                     onClick={() => handleTabClick(2)}
                     >
                         Non-PaySprint User
                     </button> 
 
-                    <button className={`flex items-center justify-between py-7 my-2 px-8 w-[344px] h-[50px] text-[#2d334a] rounded-lg
+                    <button className={`flex items-center justify-center py-7 my-2 px-8 w-[344px] h-[60px] text-[#2d334a] rounded-xl
                     ${activeTab === 3 ? 'bg-white text-[#272343]' : 'bg-transparent text-[#AEAEAE] rounded-md'}`}
                     onClick={() => handleTabClick(3)}
                     >

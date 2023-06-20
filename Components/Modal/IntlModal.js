@@ -6,10 +6,10 @@ import { LockClosedIcon } from '@heroicons/react/solid';
 function IntlModal({ isVisible , onClose}) {
     if ( !isVisible ) return null;
   return (
-    <div className='fixed inset-0 bg-white bg-opacity-0 flex items-center justify-between'> 
+    <div className='fixed inset-0 bg-white bg-opacity-0 flex items-center justify-center'> 
         <div className='w-[344px] h-[748px] bg-white rounded-md mt-24 shadow-lg'>
             <div className='m-6 ml-5'>
-                <div className='flex-container'>
+                <div className='flex justify-between items-center'>
                     <div className='space-y-2'>
                         <h3 className='text-[#E7AA07] text-[10px] font-medium'>SEND TO</h3>
                         <h2 className='text-[#2D334A] font-medium text-[16px]'>Adeloba Joshua</h2>

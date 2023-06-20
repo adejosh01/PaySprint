@@ -4,6 +4,7 @@ import niffy from "../../../public/image/niffy.jpeg"
 import { BellIcon, UserCircleIcon, UserIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import Dropdown from "@/Components/Utils/Dropdown";
+import Dropdown2 from "@/Components/Utils/Dropdown2";
 
 function Header() {
   return (
@@ -34,7 +35,7 @@ function Header() {
           <div className="hidden md:inline-flex items-center cursor-pointer bg-gray-50 text-gray-500">
             {/*An icon will be here */}
             <UserIcon className="p-2 h-10 w-10" />
-            <ChevronDownIcon className=" p-2 h-10 w-10" />
+            <Dropdown2 />
           </div>
 
           <div className="flex items-center space-x-2">
