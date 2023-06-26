@@ -8,14 +8,17 @@ import Sidebar from "./Bars/Sidebar";
 function Overview() {
     return(
         <>
+        <div>
             <Header />
             <Sidebar />
-            <div className=" ml-28 md:ml-80 lg:px-10 mt-2">
+            <div className=" ml-32 md:ml-80 lg:px-10 mt-2 flex flex-col  ">
                {/*Main Content */}
                 <Welcome />
                 <Card />
                 <TransactionView />
             </div>
+        </div>
+      
         </>
     )
 }

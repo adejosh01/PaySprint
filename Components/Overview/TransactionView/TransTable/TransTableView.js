@@ -28,8 +28,8 @@ const transvalues = [
 
 function TransTableView() {
   return (
-    <div>
-      <div className="flex justify-between items-center mt-4 pb-4 border-b-[0.5px]">
+    <div className="w-full" >
+      <div className="flex justify-between w-full items-center mt-4 pb-4 border-b-[0.5px]">
         <div>
           <h1 className="text-[14px] text-[#272343] font-semibold">
             Description

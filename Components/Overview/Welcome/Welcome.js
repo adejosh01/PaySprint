@@ -14,7 +14,7 @@ function Welcome() {
       </div>
 
       {/* Verification */}
-      <div className="flex items-center space-x-8">
+      <div className="hidden md:inline-flex items-center space-x-8">
       
         <div className="flex items-center">
           <p className="hidden md:inline-flex items-center text-sm text-[#E7AA07] w-[300px]">
